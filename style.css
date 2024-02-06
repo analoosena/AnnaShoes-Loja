@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.botao-navegacao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.navbar-nav .nav-item a{
+    text-decoration: none;
+    color: #C3AA7E;
+}
+
+.fundo{
+    background-color: #fff;
+}
+.nav-item .nav-link img{
+    width: 2em;
+}
+.nav-item .nav-link p,
+#fale-conosco a{
+    color: #000;
+}
+.nav-item .nav-link:hover{
+    color: #000;
+}
+.nav-item .nav-link{
+    color: #C3AA7E;
+}
+#logo img{
+    width: 90px;
+}
+header .container{
+    display: flex;
+    justify-content: space-around;
+}
+.section-color,
+.nav-pills .nav-link.active{
+    background-color: #C3AA7E;
+}
+.section-color-t{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.4664037539936102) 0%, rgba(195,170,126,0.7371323529411764) 0%);
+}
+.titulos{
+    font-family: 'Bungee', sans-serif;
+}
+.menor{
+    font-size: 0.8em;
+}
+.input-pesquisa{
+    /*width: 50%;*/
+    margin-left: 3%;
+    border-radius: 20px;
+    border-style: none;
+    padding-left: 4%;
+}
+.btn{
+    background-color: #fff;
+    margin-left: 10px;
+}
+.img-tag{
+    width: 3em;
+    height: 3em;
+}
+
+#marcas .container img{
+    width: 50%;
+    height: auto;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    border-color: red;
+}
+
+@media (max-width: 767px){
+    .nav-link p{
+        display: none;
+    }
+    #pesquisa div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+    #pesquisa label{
+        font-size: 0.8em;
+    }
+    #pesquisa button{
+        width: 20%;
+        padding: 0 ;
+    }
+}

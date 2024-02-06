@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Shoes</title>
+    <link href="./Imagens AS shoes/Logo.png" rel="icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header class="pt-3 sticky-top fundo">
+
+        <div class="container pb-1 fundo">
+            <a id="logo" class="navbar-brand" href="#">
+                <img src="./Imagens AS shoes/Logo.png" alt="Logo da loja AS">
+            </a>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse nav" id="navbarNav">
+                    <ul class="navbar-nav nav-underline botao-navegacao">
+                        <li class="nav-item pe-2">
+                            <a class="nav-link text-center active" href="#marcas">
+                                <img src="./Imagens AS shoes/tags/etiqueta-de-preco.png" alt="">
+                                <p class="titulos menor">Marcas</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center pe-2" href="#sandalias">
+                                <img src="./Imagens AS shoes/tags/sandalias-de-dedo.png" alt="">
+                                <p class="titulos menor">Sandálias</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center pe-2" href="#botas">
+                                <img src="./Imagens AS shoes/tags/botas-femininas.png" alt="">
+                                <p class="titulos menor">Botas</p>
+                            </a>
+                        </li>
+                        <li class="nav-item pe-2">
+                            <a class="nav-link text-center" href="#saltos">
+                                <img src="./Imagens AS shoes/tags/salto-alto.png" alt="">
+                                <p class="titulos menor">Saltos</p>
+                            </a>
+                        </li>
+                        <li class="nav-item pe-2">
+                            <a class="nav-link text-center" href="#acessorios">
+                                <img src="./Imagens AS shoes/tags/acessorios.png" alt="">
+                                <p class="titulos menor">Acessórios</p>
+                            </a>
+                        </li>
+                        <li class="nav-item pe-2">
+                            <a class="nav-link text-center" href="#fale-conosco">
+                                <img src="./Imagens AS shoes/tags/fale-conosco.png" alt="">
+                                <p class="titulos menor">Fale Conosco</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </div>
+            
+        <div id="pesquisa" class="section-color p-1">
+            <div class="mt-3 mb-3 w-80 text-center">
+                <i class="bi bi-search fs-5 pe-3"></i>
+            <label class="titulos" for="pesquisa">O que deseja encontrar?</label>
+            <input class="input-pesquisa w-50" type="text" id="pesquisa">
+            <button class="btn fw-bold">Procurar</button>
+            </div>
+            
+        </div>
+
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section>
+            <div id="carousel-loja" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-loja" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel-loja" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-loja" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="./Imagens AS shoes/1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Imagens AS shoes/2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Imagens AS shoes/3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-loja" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-loja" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    
+        <section id="marcas">
+            <div class="">
+                <div class="border-bottom border-success text-center d-block w-100 pt-5 align-items-center">
+                    <img class="img-tag" src="./Imagens AS shoes/tags/etiqueta-de-preco.png" alt="tag de preço">
+                    <h3 class="ps-3 titulos fs-1">Marcas</h3>
+                </div>
+                <div class="section-color-t">
+                    <div class="container">
+                        <p class="pt-5">
+                        Descubra o mundo da moda de pés a cabeça em nossa loja, onde elegância, estilo e qualidade se encontram. Apresentamos uma cuidadosa seleção das marcas mais renomadas e desejadas, proporcionando a você uma experiência única ao escolher o par perfeito.<br><br>
+    
+                        Em nossa loja, comprometemo-nos a trazer até você não apenas sapatos, mas verdadeiras obras de arte para seus pés. Convidamos você a explorar nossa coleção cuidadosamente selecionada dessas marcas de renome, onde cada par conta uma história de estilo, 
+                        qualidade e inovação. Permita-se mergulhar no universo fashion que só as melhores marcas podem proporcionar. Seu estilo merece o melhor, e é exatamente isso que oferecemos.
+                        </p>
+                        <img class="mx-auto d-block" src="./Imagens AS shoes/Marcas-sapato.png" alt="Logo de marcas de sapato">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="sandalias">
+            <div class="border-bottom border-success ">
+                <div class="container d-flex justify-content-start pt-5 align-items-center">
+                    <img class="img-tag" src="./Imagens AS shoes/tags/sandalias-de-dedo.png" alt="tag de sandália">
+                    <h3 class="ps-3 titulos fs-1">Sandálias</h3>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-md-2">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item w-100" role="presentation">
+                                <button class="nav-link active w-100" id="btn-praia" data-bs-toggle="pill" data-bs-target="#moda-praia" type="button" role="tab">
+                                    <i class="bi bi-brightness-alt-high"></i>
+                                    Moda Praia
+                                </button>
+                            </li>
+                            <li class="nav-item w-100" role="presentation">
+                                <button class="nav-link w-100" id="btn-outono" data-bs-toggle="pill" data-bs-target="#moda-outono" type="button" role="tab">
+                                    <i class="bi bi-tree"></i>
+                                    Outono/
+                                    Inverno
+                                </button>
+                            </li>
+                            <li class="nav-item w-100" role="presentation">
+                                <button class="nav-link w-100" id="btn-primavera" data-bs-toggle="pill" data-bs-target="#moda-primavera" type="button" role="tab">
+                                    <i class="bi bi-flower1"></i>
+                                    Pimavera/
+                                    Verão
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-10">
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="moda-praia" role="tabpanel" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-3   tab-pane fade show active" id="m-praia" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/Sandália 1.png" alt="Sandália marro sem salto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Lara</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show active" id="m-praia" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/Sandália 1.png" alt="Sandália marro sem salto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Lara</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show active" id="m-praia" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/Sandália 1.png" alt="Sandália marro sem salto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Lara</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show active" id="m-praia" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/Sandália 1.png" alt="Sandália marro sem salto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Lara</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show active" id="m-praia" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/Sandália 1.png" alt="Sandália marro sem salto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Lara</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="moda-outono" role="tabpanel"  tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-3 tab-pane" id="m-outono" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/Sandália 2.png" alt="Sandália dourada sem salto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Marina</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$199,00</del>
+                                                    <strong>R$ 99,00</strong>
+                                                </div>
+                                                <p>ou 2x 49,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 tab-pane" id="m-outono" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/Sandália 2.png" alt="Sandália dourada sem salto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Marina</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$199,00</del>
+                                                    <strong>R$ 99,00</strong>
+                                                </div>
+                                                <p>ou 2x 49,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 tab-pane" id="m-outono" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/Sandália 2.png" alt="Sandália dourada sem salto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Marina</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$199,00</del>
+                                                    <strong>R$ 99,00</strong>
+                                                </div>
+                                                <p>ou 2x 49,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 tab-pane" id="m-outono" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/Sandália 2.png" alt="Sandália dourada sem salto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Marina</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$199,00</del>
+                                                    <strong>R$ 99,00</strong>
+                                                </div>
+                                                <p>ou 2x 49,90</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="moda-primavera" role="tabpanel"  tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-3 tab-pane" id="m-outono" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/Sandália 3.png" alt="Sandália dourada  com strass sem salto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Marina</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$199,00</del>
+                                                    <strong>R$ 99,00</strong>
+                                                </div>
+                                                <p>ou 2x 49,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 tab-pane" id="m-outono" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/Sandália 3.png" alt="Sandália dourada  com strass sem salto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Marina</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$199,00</del>
+                                                    <strong>R$ 99,00</strong>
+                                                </div>
+                                                <p>ou 2x 49,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 tab-pane" id="m-outono" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/Sandália 3.png" alt="Sandália dourada  com strass sem salto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Marina</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$199,00</del>
+                                                    <strong>R$ 99,00</strong>
+                                                </div>
+                                                <p>ou 2x 49,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 tab-pane" id="m-outono" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/Sandália 3.png" alt="Sandália dourada  com strass sem salto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Marina</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$199,00</del>
+                                                    <strong>R$ 99,00</strong>
+                                                </div>
+                                                <p>ou 2x 49,90</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="botas">
+            <div class="border-bottom border-success ">
+                <div class="container d-flex justify-content-start pt-5 align-items-center">
+                    <img class="img-tag" src="./Imagens AS shoes/tags/botas-femininas.png" alt="tag de bota">
+                    <h3 class="ps-3 titulos fs-1">Botas</h3>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-md-2">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item w-100" role="presentation">
+                                <button class="nav-link active w-100" id="btn-canolongo" data-bs-toggle="pill" data-bs-target="#cano-longo" type="button" role="tab">
+                                    <i class="bi bi-arrow-up"></i>
+                                    Cano Longo
+                                </button>
+                            </li>
+                            <li class="nav-item w-100" role="presentation">
+                                <button class="nav-link w-100" id="btn-canocurto" data-bs-toggle="pill" data-bs-target="#cano-curto" type="button" role="tab">
+                                    <i class="bi bi-arrow-down"></i>
+                                    Cano curto
+                                </button>
+                            </li>
+                            <li class="nav-item w-100" role="presentation">
+                                <button class="nav-link w-100" id="btn-coturno" data-bs-toggle="pill" data-bs-target="#coturno" type="button" role="tab">
+                                    <i class="bi bi-arrow-down-up"></i>
+                                    Coturno
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="cano-longo" role="tabpanel" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-3  tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/bota longa 1.png" alt="Bota cano longo preta">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Bota segura peão</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$399,00</del>
+                                                <strong>R$ 299,00</strong>
+                                            </div>
+                                            <p>ou 2x 149,90</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3  tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/bota longa 2.png" alt="Bota cano longo prata">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Bota do futuro</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$499,00</del>
+                                                <strong>R$ 399,00</strong>
+                                            </div>
+                                            <p>ou 2x 199,90</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3  tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/bota longa 1.png" alt="Bota cano longo preta">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Bota segura peão</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$399,00</del>
+                                                <strong>R$ 299,00</strong>
+                                            </div>
+                                            <p>ou 2x 149,90</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3  tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/bota longa 2.png" alt="Bota cano longo prata">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Bota do futuro</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$499,00</del>
+                                                <strong>R$ 399,00</strong>
+                                            </div>
+                                            <p>ou 2x 199,90</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3  tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/bota longa 1.png" alt="Bota cano longo preta">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Bota segura peão</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$399,00</del>
+                                                <strong>R$ 299,00</strong>
+                                            </div>
+                                            <p>ou 2x 149,90</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="tab-pane fade show" id="cano-curto" role="tabpanel" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-3  tab-pane fade show" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/Bota curta 1.png" alt="Bota cano curta preta">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Bota little Patrícia</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$199,00</del>
+                                                <strong>R$ 249,00</strong>
+                                            </div>
+                                            <p>ou 2x 124,90</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3  tab-pane fade show" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/Bota curta 1.png" alt="Bota cano curta preta">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Bota little Patrícia</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$199,00</del>
+                                                <strong>R$ 249,00</strong>
+                                            </div>
+                                            <p>ou 2x 124,90</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3  tab-pane fade show" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/Bota curta 1.png" alt="Bota cano curta preta">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Bota little Patrícia</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$199,00</del>
+                                                <strong>R$ 249,00</strong>
+                                            </div>
+                                            <p>ou 2x 124,90</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3  tab-pane fade show" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/Bota curta 1.png" alt="Bota cano curta preta">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Bota little Patrícia</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$199,00</del>
+                                                <strong>R$ 249,00</strong>
+                                            </div>
+                                            <p>ou 2x 124,90</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3  tab-pane fade show" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/Bota curta 1.png" alt="Bota cano curta preta">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Bota little Patrícia</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$199,00</del>
+                                                <strong>R$ 249,00</strong>
+                                            </div>
+                                            <p>ou 2x 124,90</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="tab-pane fade show" id="coturno" role="tabpanel" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-3  tab-pane fade show" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/Bota 1.png" alt="Coturno preto">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Coturno da guerreira</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$199,00</del>
+                                                <strong>R$ 249,00</strong>
+                                            </div>
+                                            <p>ou 2x 124,90</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3  tab-pane fade show" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/Bota 1.png" alt="Coturno preto">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Coturno da guerreira</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$199,00</del>
+                                                <strong>R$ 249,00</strong>
+                                            </div>
+                                            <p>ou 2x 124,90</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3  tab-pane fade show" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/Bota 1.png" alt="Coturno preto">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Coturno da guerreira</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$199,00</del>
+                                                <strong>R$ 249,00</strong>
+                                            </div>
+                                            <p>ou 2x 124,90</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3  tab-pane fade show" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/Bota 1.png" alt="Coturno preto">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Coturno da guerreira</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$199,00</del>
+                                                <strong>R$ 249,00</strong>
+                                            </div>
+                                            <p>ou 2x 124,90</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3  tab-pane fade show" role="tabpanel"  tabindex="0">
+                                        <div class="container">
+                                            <img class=" d-block w-100" src="./Imagens AS shoes/Bota 1.png" alt="Coturno preto">
+                                            <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                <p class="fw-bold ">Coturno da guerreira</p>
+                                                <i class="bi bi-suit-heart ps-3"></i>
+                                                <i class="bi bi-cart ps-1"></i>
+                                                <i class="bi bi-share-fill ps-1"></i>
+                                            </div>
+                                            <div class="price">
+                                                <del>R$199,00</del>
+                                                <strong>R$ 249,00</strong>
+                                            </div>
+                                            <p>ou 2x 124,90</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="saltos">
+            <div class="border-bottom border-success">
+                <div class="container d-flex justify-content-start pt-5 align-items-center">
+                    <img class="img-tag" src="./Imagens AS shoes/tags/salto-alto.png" alt="tag de salto">
+                    <h3 class="ps-3 titulos fs-1">Saltos</h3>
+                </div>
+            </div>
+                <div class="container">
+                    <div class="row pt-5">
+                        <div class="col-md-2">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item w-100" role="presentation">
+                                    <button class="nav-link active w-100" id="btn-canolongo" data-bs-toggle="pill" data-bs-target="#salto-baixo" type="button" role="tab">
+                                        <i class="bi bi-node-minus"></i>
+                                        Salto baixo
+                                    </button>
+                                </li>
+                                <li class="nav-item w-100" role="presentation">
+                                    <button class="nav-link w-100" id="btn-canocurto" data-bs-toggle="pill" data-bs-target="#salto-medio" type="button" role="tab">
+                                        <i class="bi bi-plus-slash-minus"></i>
+                                        Salto médio
+                                    </button>
+                                </li>
+                                <li class="nav-item w-100" role="presentation">
+                                    <button class="nav-link w-100" id="btn-coturno" data-bs-toggle="pill" data-bs-target="#salto-alto" type="button" role="tab">
+                                        <i class="bi bi-node-plus"></i>
+                                        Salto alto
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="salto-baixo" role="tabpanel" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-3  tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto baixo 1.png" alt="Saldália de salto baixo dourada">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Shine</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto baixo 2.png" alt="Saldália de salto baixo trançada laranja">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Moana</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto baixo 1.png" alt="Saldália de salto baixo dourada">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Shine</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto baixo 2.png" alt="Saldália de salto baixo trançada laranja">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Moana</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto baixo 2.png" alt="Saldália de salto baixo trançada laranja">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Moana</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="salto-medio" role="tabpanel" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-3  tab-pane fade show " role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto medio 1.png" alt="Saldália de salto medio branca">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália de Neve</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show " role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto medio 1.png" alt="Saldália de salto medio branca">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália de Neve</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show " role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto medio 1.png" alt="Saldália de salto medio branca">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália de Neve</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show " role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto medio 1.png" alt="Saldália de salto medio branca">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália de Neve</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show " role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto medio 1.png" alt="Saldália de salto medio branca">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália de Neve</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="salto-alto" role="tabpanel" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-3  tab-pane fade show " role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto alto 1.png" alt="Saldália de salto alto preta">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Trevosa da noite</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$499,00</del>
+                                                    <strong>R$ 399,00</strong>
+                                                </div>
+                                                <p>ou 2x 199,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show " role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto alto 1.png" alt="Saldália de salto alto preta">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Trevosa da noite</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$499,00</del>
+                                                    <strong>R$ 399,00</strong>
+                                                </div>
+                                                <p>ou 2x 199,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show " role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto alto 1.png" alt="Saldália de salto alto preta">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Trevosa da noite</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$499,00</del>
+                                                    <strong>R$ 399,00</strong>
+                                                </div>
+                                                <p>ou 2x 199,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show " role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto alto 1.png" alt="Saldália de salto alto preta">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Trevosa da noite</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$499,00</del>
+                                                    <strong>R$ 399,00</strong>
+                                                </div>
+                                                <p>ou 2x 199,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3  tab-pane fade show " role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/salto alto 1.png" alt="Saldália de salto alto preta">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Sandália Trevosa da noite</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$499,00</del>
+                                                    <strong>R$ 399,00</strong>
+                                                </div>
+                                                <p>ou 2x 199,90</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </section>
+    
+        <section id="acessorios">
+            <div class="border-bottom border-success">
+                <div class="container d-flex justify-content-start pt-5 align-items-center">
+                    <img class="img-tag" src="./Imagens AS shoes/tags/acessorios.png" alt="tag de acessórios">
+                    <h3 class="ps-3 titulos fs-1">Acessórios</h3>
+                </div>
+            </div>
+                <div class="container">
+                    <div class="row pt-5">
+                        <div class="col-md-2">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item w-100" role="presentation">
+                                    <button class="nav-link active w-100" id="btn-canolongo" data-bs-toggle="pill" data-bs-target="#bolsas" type="button" role="tab">
+                                        <i class="bi bi-bag-dash"></i>
+                                        Bolsas
+                                    </button>
+                                </li>
+                                <li class="nav-item w-100" role="presentation">
+                                    <button class="nav-link w-100" id="btn-canocurto" data-bs-toggle="pill" data-bs-target="#cintos" type="button" role="tab">
+                                        <i class="bi bi-chevron-bar-expand"></i>
+                                        Cintos
+                                    </button>
+                                </li>
+                                <li class="nav-item w-100" role="presentation">
+                                    <button class="nav-link w-100" id="btn-coturno" data-bs-toggle="pill" data-bs-target="#oculos" type="button" role="tab">
+                                        <i class="bi bi-eyeglasses"></i>
+                                        Óculos
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="bolsas" role="tabpanel" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-3 tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/bolsa bege.png" alt="Bolsa Bege">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Bolsa Dona Discretiane</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$99,00</del>
+                                                    <strong>R$ 59,00</strong>
+                                                </div>
+                                                <p>ou 2x 29,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/bolsa branca.png" alt="Bolsa Branca">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Bolsa Branca de Neve</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$199,00</del>
+                                                    <strong>R$ 99,00</strong>
+                                                </div>
+                                                <p>ou 2x 49,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/bolsa dourada.png" alt="Bolsa Dourada">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Bolsa Carnavalesca</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$199,00</del>
+                                                    <strong>R$ 99,00</strong>
+                                                </div>
+                                                <p>ou 2x 49,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/bolsa lilas.png" alt="Bolsa Lilás">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Bolsa Candy color</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$299,00</del>
+                                                    <strong>R$ 199,00</strong>
+                                                </div>
+                                                <p>ou 2x 99,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 tab-pane fade show active" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/bolsa dourada.png" alt="Bolsa Dourada">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Bolsa Carnavalesca</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$199,00</del>
+                                                    <strong>R$ 99,00</strong>
+                                                </div>
+                                                <p>ou 2x 49,90</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="cintos" role="tabpanel" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-3  tab-pane fade show" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/cinto 1.png" alt="Cinto preto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Cinto do Coringa</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$59,00</del>
+                                                    <strong>R$ 39,00</strong>
+                                                </div>
+                                                <p>ou 2x 19,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3   tab-pane fade show" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/cinto 2.png" alt="Cintos coloridos">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Cinto Joaquinha</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$29,00</del>
+                                                    <strong>R$ 19,00</strong>
+                                                </div>
+                                                <p>ou 2x 9,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3   tab-pane fade show" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/cinto 1.png" alt="Cinto preto">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Cinto do Coringa</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$59,00</del>
+                                                    <strong>R$ 39,00</strong>
+                                                </div>
+                                                <p>ou 2x 19,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3   tab-pane fade show" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/cinto 2.png" alt="Cintos coloridos">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Cinto Joaquinha</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$29,00</del>
+                                                    <strong>R$ 19,00</strong>
+                                                </div>
+                                                <p>ou 2x 9,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3   tab-pane fade show" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/cinto 2.png" alt="Cintos coloridos">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Cinto Joaquinha</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$29,00</del>
+                                                    <strong>R$ 19,00</strong>
+                                                </div>
+                                                <p>ou 2x 9,90</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="oculos" role="tabpanel" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-3   tab-pane fade show" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/oculos gatinho.png" alt="Mulher usando óculos de gatinho">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Óculos gata malandra</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$159,00</del>
+                                                    <strong>R$ 139,00</strong>
+                                                </div>
+                                                <p>ou 2x 69,90</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3   tab-pane fade show" role="tabpanel"  tabindex="0">
+                                            <div class="container">
+                                                <img class=" d-block w-100" src="./Imagens AS shoes/oculos redondo.png" alt="Mulher usando óculos redondo">
+                                                <div class="nome-produto  d-flex justify-content-start pt-2">
+                                                    <p class="fw-bold ">Óculos WillyWonka</p>
+                                                    <i class="bi bi-suit-heart ps-3"></i>
+                                                    <i class="bi bi-cart ps-1"></i>
+                                                    <i class="bi bi-share-fill ps-1"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <del>R$129,00</del>
+                                                    <strong>R$ 99,00</strong>
+                                                </div>
+                                                <p>ou 2x 49,90</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        </section>
+    
+        <section id="fale-conosco" class="pt-5">
+            <div class="border-bottom border-success">
+                <div class="container d-flex justify-content-start pt-5 align-items-center">
+                    <img class="img-tag" src="./Imagens AS shoes/tags/fale-conosco.png" alt="tag de balão">
+                    <h3 class="ps-3 titulos fs-1">Fale Conosco</h3>
+                </div>
+            </div>
+            <div class="section-color-t pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <form id="form-contato" class="pt-4">
+                                <input class="form-control mb-2" type="text" id="nome" name="nome" placeholder="Qual seu nome?">
+                                <input class="form-control mb-2" type="email" id="email" name="email" placeholder="Seu melhor email">
+                                <input class="form-control mb-2" type="tel" id="telefone" name="telefone" placeholder="Seu telefone">
+                                <textarea class="form-control mb-2" id="mensagem" name="mensagem" placeholder="Deixe sua mensagem"></textarea>
+                            </form>
+                            <button class="btn mt-2 fw-bold" type="submit">Enviar</button>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="container pt-5">
+                                <div class="row">
+                                        <h5 class="titulos text-center">
+                                            <i class="bi bi-hand-thumbs-up fs-4"></i>
+                                            Nos siga nas redes
+                                        </h5>
+                                    <div class="text-center pt-2 pb-4 fs-2">
+                                        <a class="pe-2" href="#"><i class="bi bi-instagram"></i></a>
+                                        <a class="pe-2" href="#"><i class="bi bi-tiktok"></i></a>
+                                        <a class="pe-2" href="#"><i class="bi bi-youtube"></i></a>
+                                    </div>
+                            </div>
+                            <div class="row">
+                                <h5 class="titulos text-center pb-2">
+                                    <i class="bi bi-geo-fill"></i>
+                                    Nosso Endereço
+                                </h5>
+                                <address class="text-center">Rua Centopeia, n° 13 - Centro <br> Belo Horizonte/MG</address>
+                            </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                
+        </section>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./JS/jquery.mask.min.js"></script>
+    <script src="./JS/jquery.validate.min.js"></script>
+    <script src="./JS/messages_pt_BR.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
